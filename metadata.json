@@ -1,0 +1,7 @@
+{
+  "name": "Cell Solutions - Premium Device Buyback",
+  "description": "Cell Solutions is India's leading platform for selling used electronics. Get instant AI-powered valuations, free doorstep pickup across 50+ cities, and instant UPI payment.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
