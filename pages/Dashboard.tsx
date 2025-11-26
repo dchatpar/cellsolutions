@@ -13,7 +13,7 @@ export const Dashboard: React.FC = () => {
     { id: 'settings', label: 'Settings', icon: SettingsIcon },
   ];
 
-  // FIX: Explicitly type contentVariants as Variants to fix type error with ease property
+  // FIX: Explicitly type contentVariants as Variants to fix a potential type error with the ease property.
   const contentVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },

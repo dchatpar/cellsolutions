@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { GoogleGenAI, HarmCategory, HarmBlockThreshold } from '@google/genai';
+// FIX: Removed unused HarmCategory and HarmBlockThreshold imports.
+import { GoogleGenAI } from '@google/genai';
 import { SparklesIcon, CloudUploadIcon } from '../components/icons/Icons';
 
 // Helper function to convert a File object to a GoogleGenerativeAI.Part object.
